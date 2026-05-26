@@ -1,0 +1,91 @@
+@import "tailwindcss";
+
+/*body{
+  background-color: gray;
+  margin: 0;
+}
+*/
+
+/*
+nav{
+  display: flex;
+  justify-content: space-evenly;
+}
+*/
+
+/*
+img{
+  height: 250px;
+  width: 250px;
+}
+  */
+
+  /*
+button{
+  padding: 10px;
+  color: white;
+  background-color: rgb(105, 105, 105);
+  border-radius: 30px;
+  padding: 20px;
+  width: 500px;
+  font-size: 25px;
+}
+  */
+
+button:hover{
+  background-color: rgb(83, 83, 83);
+  color: rgb(204, 204, 204);
+}
+
+/*
+main{
+  height: 710px;
+  padding: 25px;
+}
+*/
+
+
+#galeriaBlok{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+  padding: 20px;
+  justify-content: center;
+  width: fit-content;
+  margin: auto;
+}
+
+#okladkiBlok{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+  padding: 20px;
+  justify-content: center;
+  width: fit-content;
+  margin: auto;
+}
+
+#glownaBlok{
+  display: block;
+}
+
+
+
+h3{
+  color: white;
+}
+
+ol{
+  list-style: decimal;
+  color: white;
+  text-align: left;
+  padding-left: 20px;
+  margin: 0;
+}
+
+footer{
+  color: white;
+  clear: both;
+  font-weight: bold;
+  padding: 20px;
+}
